@@ -120,7 +120,7 @@ st.set_page_config(
     page_icon='🌯', 
     layout='wide')
 
-image = Image.open('../Projeto FTC/logo-projeto-ftc.png')
+image = Image.open('../logo-projeto-ftc.png')
 
 st.sidebar.image(image, width=120)
 st.sidebar.markdown('# Company ABC | Restaurants App')
